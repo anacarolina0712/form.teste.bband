@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- FONTE AMATIC -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">  
+        <!-- MATERIALIZE CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+  
+        <!-- FONTES -->
+         <link href="https: //fonts.googleapis.com/css2?family= Amatic+SC:wght@700 & family = Andika & display=swap" rel="stylesheet">
+        
+        <!-- ICONES -->
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        
+        <!-- MATERIALIZE CSS -->
+        <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/home.css">
+      <script src="/home.js"defer></script>
+     
+
+
+
+
+
+    </head>
+    <body>
+        <header>
+          <nav class="nav-extended">
+
+            <div class="nav-wrapper container">
+              <a href="#" class="brand-logo"><img class="image" src="img/logo_remove.png" alt=""></a>
+              <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+              <ul class="right">
+                <li><a class="black-text" href="ajuda.html"><i class="material-icons left">help</i>Ajuda</a></li>
+                <li><a class="black-text" href="trabalhe.html">Trabalhe conosco</a></li>
+                <li><a class="black-text"href="home.html"><i class="material-icons left">logout</i>Sair</a></li>
+              </ul>
+            </div>
+            
+       
+              <nav class="dp-menu">
+                <ul id="dropdown" class="browser-default">
+                  <li><a href="#">Administrativo</a>
+                          <ul>
+                            <li><a href="#">Planejamento estratégico</a></li>
+                            <li><a href="#">Consultoria</a></li>
+                            <li><a href="#">Comércio</a></li>
+                          </ul>
+                    </li>
+
+                  <li><a  href="#test2">Financeiro</a>
+                    <ul>
+                      <li><a href="gestao.html">Gestão de tesouraria</a></li>
+                      <li><a href="#">Controle financeiro</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a  href="#test3">Vendas</a></li>
+                  <li><a  href="#test4">Contabilidade</a></li>
+                  <li><a  href="#test5">Marketing</a>    
+                    <ul>
+                      <li><a href="#">Pesquisa de mercado</a></li>
+                      <li><a href="#">analise do Marketing</a></li>
+                      <li><a href="#">Gestão de ferramentas</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a  href="#test6">Produção</a></li>
+                  <li><a  href="#test8">Comercial</a></li>
+                </ul>
+              </nav>
+          </nav>
+        
+
+        
+          
+           
+          
+           
+            </header>
+
+
+
+
+
+      <main>
+        <div class="container-conteudo container">
+            <h5 class="title-forms">Teste</h5>
+            <form class="form">
+              <div class="inputs input-field col s12">
+                <input class="input browser-default" type="text"
+                  placeholder="Nome*"><label for="nome">Nome</label>
+                <span class="helper-text">O campo é obrigatório.</span>
+              </div>
+              <div class="inputs input-field col s12">
+                <input class="input browser-default" type="email"
+                  placeholder="Email*"maxlength="40" ><label for="email">Email</label>
+                <span class="helper-text">O campo é obrigatório.</span>
+              </div>
+            </form>
+            <button class="btn waves-effect waves-light" type="submit" name="action-btn" on-click="login()">Enviar</button>
+        </div>
+      </main>
+       
+     
+
+
+
+  
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="content-logofooter">
+                  <img class="logofooter"src="img/logo-bandeirante-branco.png" alt="logo brinquedos bandeirante">
+                </div>
+              </div>
+              © 2022 Copyright
+            </div>
+        
+        </footer>
+      
+      
+
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+     
+<script>
+      $(document).ready(function(){
+      $('.tabs').tabs();
+  });
+
+</script>
+<script>
+  var li = document.querySelector('show-or-hide');
+  var gestao = document.querySelector('.gestao');
+
+  li.addEventListener('click', function(){
+     if(gestao.style.display ==='block'){
+      gestao.style.display = 'none';
+     }else{
+      gestao.style.display = 'block';
+    }
+  });
+
+
+</script>
+
+
+        
+    </body>
+    </html>

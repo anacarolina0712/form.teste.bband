@@ -1,0 +1,175 @@
+body{
+    background-color: white;
+}
+header{
+height: 65px;
+background-color: #eeee;
+
+}
+.image {
+    width: 70px;
+    margin-left: 50px;
+}
+
+.menus{
+    display: flex;
+    align-items: center; 
+
+}
+.banner{
+    background-color:white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-1{
+    margin-left: 60px;
+    font-family:Amatic SC;
+    font-size: 45px;
+}
+.sub-text{
+    margin-left: 60px;
+    margin-top: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social-midia{
+    display: flex;
+    justify-content: center;
+}
+.icones{
+    margin-left: 5px;
+    margin-top: 25px;
+    color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+/* CAIXA COM INPUTS */
+.content{
+    width: 600px;
+    height: 725px;
+    position: absolute;
+    left: auto;
+    right:70px;
+    top: 150px;
+    bottom: 500px;
+    margin-bottom: 300px;
+    background: #FFFFFF;
+    border: 2px solid #DCDCDC;
+    display: flex;
+}
+
+  
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* TITULOS DO CONTEUDO */
+.title{
+    margin-top: 60px;
+    font-family: Amatic SC;
+    font-size: 18px;
+    color: #074598;
+}
+.sub{
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #FAFAFA;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #AFAFAF;
+    margin-top: 5px;
+}
+
+
+
+.text-1{
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+/* BOTÂO */
+.btn{
+    align-items: center;
+    margin-top: 60px;
+    width: 200px;
+    border: none;
+    text-decoration-color: white;
+    background-color:#008000;
+    border:1px solid #C7C7C7;
+    border-radius: 25px
+    
+}
+
+
+.qualquer-coisa{
+    
+    background-color:  #ee182e;
+    width: auto;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILIZAÇÃO MENU HAMBURGUER */
+.material-icons{
+    color: grey;
+    font-size: 26px;
+}
+
+
+
+/* FOOTER */
+.page-footer{
+    background-color: #074598;
+}
+
+/* rosa{
+    background-color: #ee182e;
+}. */
+.rodapé{
+    width: 220px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
